@@ -34,14 +34,14 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', require: false
 gem "bulma-rails"
 gem 'devise'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave'
 gem 'simple_form'
 gem "mini_magick"
 gem 'impressionist'
-gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'jquery-rails'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable'
 gem 'carrierwave-postgresql'
@@ -54,11 +54,11 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console'
+  gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
   gem 'guard'
   gem 'guard-livereload'
   gem 'guard-bundler'
